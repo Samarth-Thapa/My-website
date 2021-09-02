@@ -14,10 +14,10 @@ html {
 .element::-webkit-scrollbar { width: 0 !important }
 
 body {
-    background: #151D21;
+    background: #413045;
     background-image: url('images/bg.jpg');
     background-size: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     color: white;
 }
 
