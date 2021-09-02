@@ -72,9 +72,6 @@ section header {
     margin-top: 220px;
 }
 
-.games {
-    margin-top: 20px;
-}
 
 section {
     text-align: center;
@@ -181,6 +178,10 @@ footer {
 }
 
 @media screen and (max-width: 1140px) {
+    body{
+        background-image: url(images/bg.jpg);
+    }
+    
     section nav {
         font-family: 'Lobster';
         font-size: 24px;
@@ -217,6 +218,10 @@ footer {
 }
 
 @media screen and (max-width: 760px) {
+    body{
+        background-image: url(images/bg.jpg);
+    }
+    
     .features {
         display: block;
     }
@@ -229,9 +234,6 @@ footer {
         font-size: 42px;
     }
 
-    .games {
-        margin-top: 50px;
-    }
 
     .features figure:first-child {
         padding-top: 100px;
@@ -254,6 +256,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    body{
+        background-image: url(images/bg.jpg);
+    }
+    
     li {
         font-size: 12px;
     }
