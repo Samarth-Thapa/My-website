@@ -272,6 +272,9 @@ footer {
     section .mybutton {
         font-size: 12px;
     }
+    section .mybutton1 {
+        font-size: 12px;
+    }
 
     section .mybutton:hover {
         background: white;
