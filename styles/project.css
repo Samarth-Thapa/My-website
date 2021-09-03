@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster');
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar { width: 0 !important }
+
+body {
+    background-color: #413045;
+    background-image: url('../images/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(175, 209, 238);
+}
+
+a:hover {
+    color: #6DB2F5;
+}
+
+header .logo a {
+	background-image: url("../images/logo.gif");
+	background-size: 250px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 300px;
+	width: 310px;
+	text-indent: -999999px;
+	position: relative;
+    top: -10px;
+}
+
+li:first-child {
+    float: left; 
+}
+
+li {
+    display: inline-block;
+    padding-right: 7%;
+    margin: 10px 0 0 0;
+    font-size: 36px;
+}
+
+.topnav {
+    list-style: none;
+    font-family: 'Lobster';
+    color: aliceblue;
+    margin: 50px 0 0 0;
+    text-align: right;
+}
+
+section {
+    text-align: center;
+    padding: 8%;
+}
+
+section header {
+    margin-top: 0px;
+    font-family: 'Lobster';
+    font-size: 62px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+section div {
+    font-family: 'Lobster';
+    font-size: 32px;
+    line-height: 55px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+.discord-bot {
+    padding: 8%;
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discord-bot figure {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    margin: 2px;
+    position: relative;
+    top: -200px;
+}
+.discord-bot figure img {
+	border-radius: 0%;
+	width: 300px;
+	height: 200px;
+}
+.discord-bot figure, div {
+    font-family: 'Lobster';
+    font-size: 25px;
+    line-height: 20px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movie {
+    padding: 8%;
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie figure {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    margin: 2px;
+    position: relative;
+    top: -200px;
+}
+.movie figure img {
+	border-radius: 0%;
+	width: 150px;
+	height: 150px;
+}
+.movie figure, div {
+    font-family: 'Lobster';
+    font-size: 25px;
+    line-height: 20px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.web {
+    padding: 8%;
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web figure {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    margin: 2px;
+    position: relative;
+    top: -200px;
+}
+.web figure img {
+	border-radius: 0%;
+	width: 400px;
+	height: 300px;
+}
+.web figure, div {
+    font-family: 'Lobster';
+    font-size: 25px;
+    line-height: 20px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img:hover {
+    filter: brightness(0.7);
+}
+
+footer {
+    font-family: 'Lobster';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+
+@media screen and (max-width: 1140px) {
+    .discord-bot figure img {
+        width: 200px;
+        height: 100px;
+    }
+    .movie figure img {
+        width: 100px;
+        height: 80px;
+    }
+    .web figure img {
+        width: 300px;
+        height: 200px;
+    }
+
+    li {
+        font-size: 24px;
+    }
+    section {
+        text-align: center;
+        padding: 8%;
+    }
+    section div {
+        font-family: 'Lobster';
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    body{
+        background-image: url("../images/bg.jpg");
+    }
+
+    .discord-bot figure img {
+        width: 200px;
+        height: 100px;
+    }
+    .movie figure img {
+        width: 100px;
+        height: 80px;
+    }
+    .web figure img {
+        width: 300px;
+        height: 200px;
+    }
+    .discord-bot figure {
+        padding: 65px 10px;
+    }
+    .movie figure {
+        padding: 65px 10px;
+    }
+    .web figure {
+        padding: 65px 10px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    section header {
+        font-size: 36px;
+    }
+
+    .project {
+        margin-top: 50px;
+    }
+
+    section div {
+        font-family: 'Lobster';
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+    header .logo a {
+        height: 100px;
+	    width: 80px;
+        background-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        font-size: 12px;
+    }
+    section {
+        text-align: center;
+    }
+    .discord-bot figure img {
+        width: 100px;
+        height: 70px;
+    }
+    .movie figure img {
+        width: 100px;
+        height: 80px;
+    }
+    .web figure img {
+        width: 200px;
+        height: 100px;
+    }
+    .discord-bot figure {
+        padding: 100px 10px;
+    }
+    .movie figure {
+        padding: 65px 10px;
+    }
+    .web figure {
+        padding: 100px 10px;
+    }
+    .discord-bot figure, div {
+        font-size: 15px;
+    }
+    .movie figure, div {
+        font-size: 15px;
+    }
+    .web figure, div {
+        font-size: 15px;
+    }
+    header .logo a {
+        height: 100px;
+	    width: 80px;
+        background-size: 80px;
+    }
+}
